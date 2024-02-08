@@ -5,6 +5,12 @@ body {
 .property-section, section {
     padding: 30px;
 }
+footer {
+    background-color: #8f439c; /* Default color if image color extraction isn't possible */
+    padding: 20px;
+    text-align: center;
+    color: #fff; /* Text color on footer */
+}
 
 /* Responsive styles */
 @media only screen and (min-width: 768px) {
