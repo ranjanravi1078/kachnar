@@ -10,6 +10,9 @@ footer {
     text-align: center;
     color: #fff; /* Text color on footer */
     padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around; /* Distribute space evenly between columns */
+    flex-wrap: wrap; 
 }
 
 /* Responsive styles */
@@ -37,5 +40,8 @@ footer {
     }
     .property-section, section, footer {
         padding: 30px 30px 0;
+    }
+    footer {
+        flex-direction: column; /* Switch to one-column layout */
     }
 }
