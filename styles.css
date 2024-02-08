@@ -1,4 +1,7 @@
 /* Common styles */
+body {
+    margin: 0;
+}
 .property-section {
     margin-top: 50px;
     padding: 20px;
