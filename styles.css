@@ -2,12 +2,11 @@
 body {
     margin: 0;
 }
-.property-section, section {
-    padding: 30px;
+.property-section, section, footer {
+    padding: 30px 80px;
 }
 footer {
     background-color: #8f439c; /* Default color if image color extraction isn't possible */
-    padding: 20px;
     text-align: center;
     color: #fff; /* Text color on footer */
 }
