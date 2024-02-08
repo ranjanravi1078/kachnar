@@ -1,0 +1,32 @@
+/* Common styles */
+.property-section {
+    margin-top: 50px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Responsive styles */
+@media only screen and (min-width: 768px) {
+    /* For laptops and larger screens */
+    .landscape-img {
+        display: block; /* Show landscape image */
+        width: 100%; /* Make image fill the container */
+        height: auto; /* Maintain aspect ratio */
+    }
+    .mobile-img {
+        display: none; /* Hide mobile image */
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /* For mobile devices */
+    .landscape-img {
+        display: none; /* Hide landscape image */
+    }
+    .mobile-img {
+        display: block; /* Show mobile image */
+        width: 100%; /* Make image fill the container */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
