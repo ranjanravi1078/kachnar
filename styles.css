@@ -6,7 +6,7 @@ body {
     padding: 30px 80px 0;
 }
 footer {
-    background: linear-gradient(150deg, rgba(143,67,156,1) 0%, rgba(255,255,255,1) 100%); /* Default color if image color extraction isn't possible */
+    background: rgba(255,255,255,1); /* Default color if image color extraction isn't possible */
     text-align: center;
     color: #fff; /* Text color on footer */
 }
