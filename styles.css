@@ -9,6 +9,7 @@ footer {
     background: #91499d; /* Default color if image color extraction isn't possible */
     text-align: center;
     color: #fff; /* Text color on footer */
+    padding-bottom: 30px;
 }
 
 /* Responsive styles */
