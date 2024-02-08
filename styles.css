@@ -1,0 +1,47 @@
+/* Common styles */
+body {
+    margin: 0;
+}
+.property-section, section, footer {
+    padding: 30px 80px 0;
+}
+footer {
+    background: #91499d; /* Default color if image color extraction isn't possible */
+    text-align: center;
+    color: #fff; /* Text color on footer */
+    padding-bottom: 30px;
+    display: flex;
+/*     justify-content: space-around; /* Distribute space evenly between columns */ */
+    flex-wrap: wrap; 
+}
+
+/* Responsive styles */
+@media only screen and (min-width: 768px) {
+    /* For laptops and larger screens */
+    .landscape-img {
+        display: block; /* Show landscape image */
+        width: 100%; /* Make image fill the container */
+        height: auto; /* Maintain aspect ratio */
+    }
+    .mobile-img {
+        display: none; /* Hide mobile image */
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /* For mobile devices */
+    .landscape-img {
+        display: none; /* Hide landscape image */
+    }
+    .mobile-img {
+        display: block; /* Show mobile image */
+        width: 100%; /* Make image fill the container */
+        height: auto; /* Maintain aspect ratio */
+    }
+    .property-section, section, footer {
+        padding: 30px 30px 0;
+    }
+    footer {
+        flex-direction: column; /* Switch to one-column layout */
+    }
+}
