@@ -2,8 +2,7 @@
 body {
     margin: 0;
 }
-.property-section {
-    margin-top: 50px;
+.property-section, section {
     padding: 30px;
 }
 
