@@ -11,7 +11,7 @@ footer {
     color: #fff; /* Text color on footer */
     padding-bottom: 30px;
     display: flex;
-    justify-content: space-around; /* Distribute space evenly between columns */
+/*     justify-content: space-around; /* Distribute space evenly between columns */ */
     flex-wrap: wrap; 
 }
 
