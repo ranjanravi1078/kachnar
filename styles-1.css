@@ -5,14 +5,24 @@ body {
 .property-section, section, footer {
     padding: 30px 80px 0;
 }
+#products .product {
+    display: flex;
+    gap: 8;
+    max-width: 100%;
+}
+#products .product img {
+    width: 50%;
+    height: auto;
+    justify-content: space-between;
+}
 footer {
     background: #91499d; /* Default color if image color extraction isn't possible */
     text-align: center;
-    color: #fff; /* Text color on footer */
+    color: #fff;
     padding-bottom: 30px;
     display: flex;
-/*     justify-content: space-around; /* Distribute space evenly between columns */ */
     flex-wrap: wrap; 
+    justify-content: space-between;
 }
 
 /* Responsive styles */
@@ -22,6 +32,7 @@ footer {
         display: block; /* Show landscape image */
         width: 100%; /* Make image fill the container */
         height: auto; /* Maintain aspect ratio */
+        max-width: 100%;
     }
     .mobile-img {
         display: none; /* Hide mobile image */
